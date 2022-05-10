@@ -4,26 +4,20 @@ Exercise for Refactoring code from my SE course at DHBW Karlsruhe
 
 Since IntelliJ was used for refactoring, the following shortcuts proved useful:
 
-1. Extract selection to a local variable
-(Ctrl + Alt + V / Cmd + Opt + V )
+<ol>
+  <li> Extract selection to a local variable: (Ctrl + Alt + V / Cmd + Opt + V ) </li>
 
-2. Extract selection to a field/property
-(Ctrl + Alt + F / Cmd + Opt + F)
+  <li> Extract selection to a field/property: (Ctrl + Alt + F / Cmd + Opt + F) </li>
 
-3. Extract selection to a method
-(Ctrl + Alt + M / Cmd + Opt + M)
+  <li> Extract selection to a method: (Ctrl + Alt + M / Cmd + Opt + M) </li>
 
-4. Inline Functions
-(Ctrl + Alt + N / Cmd + Opt + N)
+  <li> Inline Functions: (Ctrl + Alt + N / Cmd + Opt + N) </li>
 
-5. Move to Next or Previous cursor location
-(Ctl + Alt + ← or → / Cmd + Opt + ← or →)
+  <li> Move to Next or Previous cursor location: (Ctl + Alt + ← or → / Cmd + Opt + ← or →) </li>
 
-6. Code generation
-(Alt + Insert / Cmd + N)
+  <li> Code generation: (Alt + Insert / Cmd + N) </li>
 
-7. Renaming variables, methods, classes, etc
-(Ctrl + Alt + R / Shift + F6)
+  <li> Renaming variables, methods, classes, etc: (Ctrl + Alt + R / Shift + F6) </li>
 
-8. Refactor this
-(Ctrl+Alt+Shift+T / Ctrl + T)
+  <li> Refactor this: (Ctrl+Alt+Shift+T / Ctrl + T) </li>
+</ol>
