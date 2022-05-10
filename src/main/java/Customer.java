@@ -28,18 +28,28 @@ class Customer {
 
             Rental each = (Rental) enum_rentals.nextElement();
             //determine amounts for each line
-
             frequentRenterPoints += each.getFrequentRenterPoints(frequentRenterPoints, each);
-
             //show figures for this rental
             result += "\t" + each.getMovie().getTitle()+ "\t"  + String.valueOf(each.getCharge()) + "\n";
 
         }
         //add footer lines
         result += "Amount owed is " + String.valueOf(getTotalCharge()) + "\n";
-        result += "You earned " + String.valueOf(frequentRenterPoints) + " frequent renter points";
+        result += "You earned " + String.valueOf(getTotalfrequentRenterPoints()) + " frequent renter points";
         return result;
     }
+
+    private int getTotalfrequentRenterPoints() {
+        int result = 0;
+        Enumeration enum_rentals = rentals.elements();
+        while (enum_rentals.hasMoreElements()) {
+            Rental each = (Rental) enum_rentals.nextElement();
+            result += each.getFrequentRenterPoints(result, each);
+        }
+        return result;
+
+    }
+
     public double getTotalCharge() {
         double result = 0;
         Enumeration enum_rentals = rentals.elements();
